@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 400px;
+    min-height: 125px;
+    background-image: url(https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+form{
+    width: 400px;
+    height: 800px;
+    margin: 0% auto;    
+    margin-top: 40px;
+}
+
+
+meter{
+    width: 350px;
+}
+input{
+   width: 350px;
+   height: 35px;
+   border-radius: 50px;
+   text-align: center;
+   border: none;
+}
+button{
+    width: 90px;
+    height: 40px;
+    border-radius: 50px;
+}
+

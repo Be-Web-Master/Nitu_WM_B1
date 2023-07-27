@@ -4,6 +4,42 @@
        <title>My website</title>
     </head>
     <body>
-        <h1>hello world</h1>
+        <header>
+            <h1>Ragistration form</h1>
+        </header>
+        <section>
+            <form >
+                <label for="name">name:</label>
+                <input type="text" id="name" name ="name" required> <br>
+                  <label>Gender:</label>
+
+                  <input type="radio" id="male" name="gender" value="male" required>
+                  <label for="Male">Male</label>
+
+                  <input type="radio" id="Female" name="gender" value="Female" required>
+                  <label for="female">Female</label>
+
+                  <input type="radio" id="other" name="gender" value="other" require>
+                  <label for="other">other</label> <br>
+
+                  <label for="age">Age:</label>
+                  <input type="number" id="age" value="Age" required><br>
+
+                  <label for="contact_number">contact_number:</label>
+                  <input type="tel" id="contact_number" value="contact_number" required><br>
+
+                  <label for="contact_email">contact_email:</label>
+                  <input type="email" id="contact_email" value="contact_email" required><br>
+
+                  <label for="single_file">single_upload:</label>
+                  <input type="file" id="single_upload" accept=".jpg, .png" required> <br>
+
+                  <label for="multiple file ">multiple_file_upload:</label>
+                  <input type="file" id="multiple_file" name="multiple_files[]" multiple accept=".jpg,.png"><br>
+
+                  <button>submit</button> 
+                  <button>reset</button>
+            </form>
+        </section>
     </body>
 </html>

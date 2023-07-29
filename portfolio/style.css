@@ -75,7 +75,7 @@ li > span {
   background-color: #82bfdb;
   margin-left: 28%;
   margin-top: 2%;
-  background-image: url(/portfolio/image/girl.png);
+  background-image: url(./image/girl.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -121,7 +121,7 @@ h2{
     /* background-color: aqua; */
     margin-left: 73%;
     margin-top: -18%;
-    background-image: url(/portfolio/image/screen.png);
+    background-image: url(./image/screen.png);
     background-repeat: no-repeat;
 }
 .cretifid{
@@ -143,7 +143,7 @@ h2{
     /* background-color: #48575C; */
     margin-left: 10%;
     margin-top: 220px;
-    background-image: url(/portfolio/image/scc.png);
+    background-image: url(./image/scc.png);
     background-repeat: no-repeat;
 }
 .left > h1{
@@ -165,7 +165,7 @@ h2{
     /* background-color: #F26440; */
     margin-left: 10%;
     margin-top: 100px;
-    background-image: url(/portfolio/image/sc.png);
+    background-image: url(./image/sc.png);
     background-repeat: no-repeat;
 }
 .left2 > h1{
@@ -187,7 +187,7 @@ h2{
     /* background-color: #F26440; */
     margin-left: 10%;
     margin-top: 100px;
-    background-image: url(/portfolio/image/sc2.png);
+    background-image: url(./image/sc2.png);
     background-repeat: no-repeat;
 }
 .left3 > h1{

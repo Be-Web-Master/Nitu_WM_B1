@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(26, 109, 109);
+}
+.head{
+    width: 100vw;
+    height: 8vh;
+    background-color: #FF9899;
+}

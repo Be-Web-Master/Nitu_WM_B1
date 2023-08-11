@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.contaner{
+    width: 100vw;
+    height: 120vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.9)) ,url(https://images.pexels.com/photos/7453472/pexels-photo-7453472.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    font-size: 100px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+
+}
+h1{
+    font-size: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+} 
+p{
+    color: #f0ebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center
+
+}
+.card{
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    margin-left: 210px;
+    margin-top: 40px;
+    border-radius: 6px;
+    padding: 25px 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+h2{
+    font-weight: 800;
+}
+
+h5{
+    font-size: 16px;
+}
+
+.card1{
+    width: 400px;
+    height: 400px;
+    background-color: #e9e2e2;
+    margin-left: 750px;
+    margin-top: -400px;
+    border-radius: 6px;
+    padding: 25px 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -5,9 +5,11 @@ const searchInput = document.getElementById('searchInput')
 const GET_URL = (idInputVal) => `https://jsonplaceholder.typicode.com/todos/${idInputVal}`;
 const todoLiData = [];
 
+
 const clearTodoList = () => {
     todoList.innerHTML = '';
 }
+
 
 const updateTodoList = () =>{
     clearTodoList();
@@ -16,11 +18,13 @@ const updateTodoList = () =>{
         liTagElement.innerHTML = todoLiData[i];
         todoList.append(liTagElement);
     }
-}
-
+}  
 
 
 const addLIElement = (liText) => {
+    // const string = 'ajhdsd'
+    // string.includes('m')
+    // liText.value.includes()
     todoLiData.push(liText);
     const liTagElement = document.createElement('li')
     liTagElement.innerText = liText;
@@ -48,8 +52,6 @@ const handleAddTaskSubmit = async (event) => {
 
     submitBtn.innerText = 'Adding';
     const todoData = await getApiData(GET_URL(idInputVal));
-
-
     if (!todoData.title) {
         alert('Failed to get Data ')
         submitBtn.innerText = 'Add';
@@ -57,7 +59,6 @@ const handleAddTaskSubmit = async (event) => {
         return;
     }
     // console.log(idInputVal,todoData)
-     
     addLIElement(todoData.title);
     console.log(todoLiData)
     idInput.value = '';
@@ -65,6 +66,18 @@ const handleAddTaskSubmit = async (event) => {
     
 };
 
-const handlesearchInput = (event) => {
-    console.log(event.target.value)
+const clearUI = () => {
+    todoList.innerHTML = '';
 }
+
+const handlesearchInput = (event) => {
+    const value = event.target.value;
+    clearUI();
+    todoLiData.forEach((Element) =>{
+
+        let search = Element.includes(value);
+        if(search){
+            addLIElement(Element)
+        }
+    });
+};

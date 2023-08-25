@@ -7,19 +7,21 @@
 html,body{
     min-height: 100vh;
     width: 100%;
-    color: rgb(218, 184, 184);
-    background-color: rgb(156, 149, 149);
+    color: rgb(2, 2, 2);
+    background-color: rgb(255, 253, 253);
+    
+    
 }
 
 
 #searchInput{
-    width: 30vw;
+    width: 20vw;
     height: 6vh;
 }
 
 #idInput{
     margin-top: 15px;
-    width: 30vw;
+    width: 20vw;
     height: 6vh;
 }
 

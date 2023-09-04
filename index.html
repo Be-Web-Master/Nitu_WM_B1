@@ -19,7 +19,19 @@
         <button id="addRow">Add row</button>
      <!-- </div> -->
      <button id="addColumn">Add column</button>
-     <button id="clearbtn" onclick="local()">clear</button>
+     <button id="clearbtn" onclick="local()">clear</button> 
+    <form id="sort-form" action="">
+      <select  class="column-dropdown" name="columnsdropdown"></select>
+
+      <input   name="sort" value="Acending" id="acc" type="radio">
+      <label for="asc">Acending</label>
+
+      <input  name="sort" value="Descending" id="dec" type="radio">
+      <label for="dec">Descending</label>
+      
+      <button id="sort-btn" type="submit">sort</button>
+       
+    </form>
     <script src="script.js"></script>
 </body>
 </html>
